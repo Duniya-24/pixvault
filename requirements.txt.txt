@@ -1,0 +1,23 @@
+# DeepShield v2.0 — Requirements
+# =================================
+# Core (required)
+torch>=2.0.0
+torchvision>=0.15.0
+Pillow>=9.0.0
+numpy>=1.23.0
+scipy>=1.9.0
+opencv-python>=4.7.0
+
+# Face recognition (required for real protection)
+insightface>=0.7.3
+onnxruntime>=1.15.0      # CPU inference
+# onnxruntime-gpu>=1.15.0  # Uncomment for GPU
+
+# Second surrogate encoder (improves transfer, recommended)
+facenet-pytorch>=2.5.3
+
+# Anti-diffusion module (optional but strongly recommended)
+# Adds real DreamBooth/LoRA poisoning using SD VAE
+diffusers>=0.21.0
+transformers>=4.30.0
+accelerate>=0.20.0
