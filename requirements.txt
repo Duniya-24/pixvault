@@ -21,3 +21,8 @@ facenet-pytorch>=2.5.3
 diffusers>=0.21.0
 transformers>=4.30.0
 accelerate>=0.20.0
+
+
+uvicorn
+fastapi
+python-multipart
